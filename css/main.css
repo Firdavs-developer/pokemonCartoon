@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.pokemon-swaps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-swap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pokemon-swap i{
+    margin-bottom: 5px;
+}
+
+.pokemon-loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color:rgba(0, 0, 0, 0.7) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
